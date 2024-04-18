@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    enabled: off
+  jpa:
+    open-in-view: off
+    hibernate:
+      ddl-auto: validate
+    generate-ddl: off
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
